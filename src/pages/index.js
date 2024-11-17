@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
+        <h1 className='title'>CSCI Group Project</h1>
 
         <p className='description'>
           Get started by editing <code>src/pages/index.js</code> to be your
@@ -22,7 +22,7 @@ export default function Home() {
         <code>src/page/teamMemberName.js</code>
 
         <div className='grid'>
-          <a href='/RileyRasizer' className='card'>
+          <a href='/TomHolland' className='card'>
             <h3>Example About Me Page &rarr;</h3>
             <p>Click here to navigate to an example page</p>
           </a>
@@ -60,11 +60,11 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
-        <a href='' target='_blank' rel='noopener noreferrer'>
-          Copyright CSCI 1000 2023
-        </a>
-      </footer>
+      // <footer>
+      //   <a href='' target='_blank' rel='noopener noreferrer'>
+      //     Copyright CSCI 1000 2023
+      //   </a>
+      // </footer>
 
       <style jsx>{`
         .container {
