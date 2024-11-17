@@ -10,8 +10,8 @@ export default function rileysPage() {
           </div>
           <img
             className='pic'
-            src=''
-            alt=''
+            src='rileyimage.jpg'
+            alt='rileyrasizer'
           />
 
           <p className='description'>
