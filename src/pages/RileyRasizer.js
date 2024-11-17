@@ -15,11 +15,17 @@ export default function rileysPage() {
           />
 
           <p className='description'>
-            Hi there! My name is Riley and I am currently a first year CS student minoring in business, and I am pursuing a focus in cybersecurity!
+            Hi there! My name is Riley and I am currently a first year CS student 
+            minoring in business, and I am pursuing a focus in cybersecurity! As of
+            right now, I primarily want to focus on gaining my certifications, such
+            as Comptia Networking+ and Security+, I know that I have a long way to
+            go, however, I know that these will strongly benefit me in the future. 
+            I have attached my LinkedIn and email if you would like to reach out
+            to me with any questions you might have.
           </p>
 
           <a className='button' href='/'>
-            <p> Back to Home Page</p>
+            <p> Back </p>
           </a>
         </main>
 
