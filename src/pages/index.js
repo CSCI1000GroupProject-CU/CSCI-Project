@@ -47,10 +47,10 @@ export default function Home() {
             <p>Click here to learn more about HTML and CSS</p>
           </a>{' '}
        */} 
-          <a href='/Cole' //Enter page here
+          <a href='/ColeSpencer' //Enter page here
             className='card'> 
-            <h3>"Enter Name Here" &rarr;</h3>
-            <p>"Enter Description Here"</p>
+            <h3>"Cole Specner" &rarr;</h3>
+            <p>"Click here to see Cole's Page"</p>
           </a>
   {/*
             <a href='https://styled-components.com/' className='card'>
