@@ -32,7 +32,7 @@ export default function Home() {
          
           <a href='/ColeSpencer' //Enter page here
             className='card'> 
-            <h3>Cole Specner &rarr;</h3>
+            <h3>Cole Spencer &rarr;</h3>
             <p>Click here to see Cole's Page</p>
           </a>
         </div>
