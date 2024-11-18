@@ -1,3 +1,3 @@
-# Welcome to our group project!
+# Welcome to our group project for CSCI 1000!
 
-For this project we all made about me pages on our website which is linked here https://main--csci-group-project.netlify.app/ and provided breif descriptions of ourselves, as well as some ways to reach out to us like through LinkedIn or our emails.
+We all made about me pages on [our website](https://main--csci-group-project.netlify.app/) and provided brief descriptions of ourselves, including ways to contact us (e.g. LinkedIn or email).
