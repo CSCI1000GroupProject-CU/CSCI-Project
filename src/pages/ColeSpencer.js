@@ -1,4 +1,4 @@
-export default function rileysPage() {
+export default function colesPage() {
     return (
       <div className='container'>
         <title>Website</title>
@@ -6,12 +6,12 @@ export default function rileysPage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'> Riley Rasizer </h1>
+            <h1 className='title'> Cole Spencer </h1>
           </div>
           <img
             className='pic'
-            src='https://github.com/CSCI1000GroupProject-CU/CSCI-Project/blob/main/src/public/rileyimage.jpg?raw=true'
-            alt='rileyrasizer'
+            src='https://avatars.githubusercontent.com/u/109928281?v=4&size=64'
+            alt='colespencer'
           />
 
           <p className='description'>
