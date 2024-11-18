@@ -29,7 +29,7 @@ export default function colesPage() {
           </a>
 
 <a className='button' href='mailto:colejxs@gmail.com'>
-            <p> Email: rileyrasizer@gmail.com </p>
+            <p> Email: colejxs@gmail.com </p>
           </a>
                 
           <a className='button' href='/'>
