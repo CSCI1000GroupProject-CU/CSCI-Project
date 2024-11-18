@@ -14,12 +14,12 @@ export default function Home() {
         <p className='description'>
           By Riley, Andrew and Cole
         </p>
-        // <p className='description2'>
-        //   Next, each team member will create their own about me file in the
-        //   pages directory:{' '}
-        // </p>
-        // <code>src/page/teamMemberName.js</code>
-
+  {/*<p className='description2'>
+          Next, each team member will create their own about me file in the
+          pages directory:{' '}
+        </p>
+        <code>src/page/teamMemberName.js</code>
+*/}
         <div className='grid'>
           <a href='/RileyRasizer' className='card'>
             <h3>Riley Rasizer &rarr;</h3>
@@ -27,7 +27,7 @@ export default function Home() {
           </a>
 
           <a
-            href='' //enter your page here
+            href='/Andrew' //enter your page here
             className='card'>
             <h3> "Enter Name Here" &rarr;</h3>
             <p>
@@ -35,7 +35,7 @@ export default function Home() {
             </p>
           </a>
           <a
-            href='' //enter your page here
+            href='/Cole' //enter your page here
             className='card'>
             <h3> "Enter Name Here" &rarr;</h3>
             <p>"Enter Description Here"</p>
@@ -59,12 +59,12 @@ export default function Home() {
         </div>
       </main>
 
-      // <footer>
-      //   <a href='' target='_blank' rel='noopener noreferrer'>
-      //     Copyright CSCI 1000 2023
-      //   </a>
-      // </footer>
-
+  {/*<footer>
+        <a href='' target='_blank' rel='noopener noreferrer'>
+          Copyright CSCI 1000 2023
+        </a>
+      </footer>
+*/}
       <style jsx>{`
         .container {
           min-height: 100vh;
