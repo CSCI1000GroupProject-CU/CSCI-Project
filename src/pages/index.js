@@ -34,7 +34,9 @@ export default function Home() {
               "Enter Description here"
             </p>
           </a>
-          <a
+         
+  {/*
+              <a
             href='/Cole' //enter your page here
             className='card'>
             <h3> "Enter Name Here" &rarr;</h3>
@@ -44,11 +46,13 @@ export default function Home() {
             <h3>HTML and CSS &rarr;</h3>
             <p>Click here to learn more about HTML and CSS</p>
           </a>{' '}
-          <a href='https://tailwindcss.com/' className='card'>
-            <h3>Tailwind css&rarr;</h3>
-            <p>Click here to learn more about tailwind css</p>
+       */} 
+          <a href='/Cole' className='card'> //Enter page here
+            <h3>"Enter Name Here" css&rarr;</h3>
+            <p>"Enter Description Here"</p>
           </a>
-          <a href='https://styled-components.com/' className='card'>
+  {/*
+            <a href='https://styled-components.com/' className='card'>
             <h3>Styled Components&rarr;</h3>
             <p>Click here to learn more about Styled Components</p>
           </a>
@@ -56,6 +60,7 @@ export default function Home() {
             <h3>Netlify&rarr;</h3>
             <p>Click here to learn more about Netlify to host your website</p>
           </a>
+          */}
         </div>
       </main>
 
@@ -204,6 +209,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
+          background-color: #ccc4c2
           padding: 0;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
