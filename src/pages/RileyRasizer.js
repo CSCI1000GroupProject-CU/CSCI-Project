@@ -10,7 +10,7 @@ export default function rileysPage() {
           </div>
           <img
             className='pic'
-            src='/rileyimage.jpg'
+            src='/rileyimage'
             alt='rileyrasizer'
           />
 
@@ -67,8 +67,8 @@ export default function rileysPage() {
           }
 
           .pic {
-            height: 450px;
-            width: 450px;
+            height: 250px;
+            width: 150px;
           }
 
           .button {
@@ -108,6 +108,7 @@ export default function rileysPage() {
         <style jsx global>{`
           html,
           body {
+            background-color: #aea2bb;
             padding: 0;
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
