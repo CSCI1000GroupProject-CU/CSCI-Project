@@ -80,16 +80,20 @@ export default function rileysPage() {
           }
 
           .button {
-            /* margin: .5rem; */
-            flex-basis: 45%;
-            padding: 0.4rem 0.5rem !important;
+            padding: 0.4rem 0.5rem;
             text-align: left;
-            color: #FFFFFF;
+            color: inherit;
             text-decoration: none;
             border: 3px solid #742bc7;
             border-radius: 10px;
             transition: color 0.15s ease, border-color 0.15s ease;
+            box-sizing: border-box;
           }
+
+          .button p {
+              margin: 0;
+              line-height: 1rem;
+            }
 
           .button:hover,
           .button:focus,
