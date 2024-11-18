@@ -47,8 +47,9 @@ export default function Home() {
             <p>Click here to learn more about HTML and CSS</p>
           </a>{' '}
        */} 
-          <a href='/Cole' className='card'> //Enter page here
-            <h3>"Enter Name Here" css&rarr;</h3>
+          <a href='/Cole' //Enter page here
+            className='card'> 
+            <h3>"Enter Name Here" &rarr;</h3>
             <p>"Enter Description Here"</p>
           </a>
   {/*
