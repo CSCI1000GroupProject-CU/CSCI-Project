@@ -72,7 +72,6 @@ export default function rileysPage() {
           .description {
             line-height: 1.5;
             font-size: 1.5rem;
-            color: #FFFFFF;
           }
 
           .pic {
@@ -85,7 +84,7 @@ export default function rileysPage() {
             text-align: left;
             color: #FFFFFF;
             text-decoration: none;
-            border: 3px solid #742bc7;
+            border: 3px solid #000000;
             border-radius: 10px;
             transition: color 0.15s ease, border-color 0.15s ease;
             box-sizing: border-box;
@@ -121,7 +120,7 @@ export default function rileysPage() {
         <style jsx global>{`
           html,
           body {
-            background-color: #0b1966;
+            background-color: #bbc0d8;
             padding: 0;
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
