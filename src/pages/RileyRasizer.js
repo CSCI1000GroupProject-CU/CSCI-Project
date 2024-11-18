@@ -10,7 +10,7 @@ export default function rileysPage() {
           </div>
           <img
             className='pic'
-            src='https://github.com/CSCI1000GroupProject-CU/CSCI-Project/blob/main/src/public/rileyimage.jpg?raw=true'
+            src='/public/rileyimage.jpg'
             alt='rileyrasizer'
           />
 
