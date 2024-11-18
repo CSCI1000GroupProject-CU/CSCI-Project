@@ -24,6 +24,14 @@ export default function rileysPage() {
             to me with any questions you might have.
           </p>
 
+<a className='button' href='https://www.linkedin.com/in/riley-rasizer-265258325/'>
+            <p> LinkedIn </p>
+          </a>
+
+<a className='button' href='rileyrasizer@gmail.com'>
+            <p> Email: rileyrasizer@gmail.com </p>
+          </a>
+                
           <a className='button' href='/'>
             <p> Back </p>
           </a>
