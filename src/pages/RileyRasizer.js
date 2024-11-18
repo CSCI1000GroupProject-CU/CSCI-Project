@@ -82,13 +82,11 @@ export default function rileysPage() {
           .button {
             /* margin: .5rem; */
             flex-basis: 45%;
-            padding-top: 0.4rem;
-            padding-bottom: 0.4rem;
-            padding: 0.5rem;
+            padding: 0.4rem 0.5rem !important;
             text-align: left;
             color: #FFFFFF;
             text-decoration: none;
-            border: 1px solid #742bc7;
+            border: 3px solid #742bc7;
             border-radius: 10px;
             transition: color 0.15s ease, border-color 0.15s ease;
           }
