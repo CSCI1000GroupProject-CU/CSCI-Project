@@ -12,34 +12,33 @@ export default function Home() {
         <h1 className='title'>CSCI Group Project</h1>
 
         <p className='description'>
-          Get started by editing <code>src/pages/index.js</code> to be your
-          project home page.
+          By Riley, Andrew and Cole
         </p>
-        <p className='description2'>
-          Next, each team member will create their own about me file in the
-          pages directory:{' '}
-        </p>
-        <code>src/page/teamMemberName.js</code>
+        // <p className='description2'>
+        //   Next, each team member will create their own about me file in the
+        //   pages directory:{' '}
+        // </p>
+        // <code>src/page/teamMemberName.js</code>
 
         <div className='grid'>
-          <a href='/TomHolland' className='card'>
-            <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
+          <a href='/RileyRasizer' className='card'>
+            <h3>Riley Rasizer &rarr;</h3>
+            <p>Click here to see Riley's Page</p>
           </a>
 
           <a
-            href='https://github.com/vedant29/Project-CSCI-1000'
+            href='' //enter your page here
             className='card'>
-            <h3>Project Resources&rarr;</h3>
+            <h3> "Enter Name Here" &rarr;</h3>
             <p>
-              Return to the Github for resources on creating your own website!
+              "Enter Description here"
             </p>
           </a>
           <a
-            href='https://nextjs.org/learn/foundations/about-nextjs'
+            href='' //enter your page here
             className='card'>
-            <h3>Next.js&rarr;</h3>
-            <p>Click here to learn more about Next.js</p>
+            <h3> "Enter Name Here" &rarr;</h3>
+            <p>"Enter Description Here"</p>
           </a>
           <a href='https://blog.hubspot.com/website/html' className='card'>
             <h3>HTML and CSS &rarr;</h3>
