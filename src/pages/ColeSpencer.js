@@ -10,7 +10,7 @@ export default function colesPage() {
           </div>
           <img
             className='pic'
-            src='https://avatars.githubusercontent.com/u/109928281?v=4&size=64'
+            src='https://media.licdn.com/dms/image/v2/D5603AQFCpzyRKK6UwQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724955963704?e=1737590400&v=beta&t=qKu7KCwPVqhYnz2St7RV-LN_mjnwQBqh1zP5wDseK0o'
             alt='colespencer'
           />
 
@@ -29,7 +29,7 @@ export default function colesPage() {
           </a>
 
 <a className='button' href='mailto:colejxs@gmail.com'>
-            <p> Email: rileyrasizer@gmail.com </p>
+            <p> Email: colejxs@gmail.com </p>
           </a>
                 
           <a className='button' href='/'>

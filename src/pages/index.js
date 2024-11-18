@@ -32,8 +32,8 @@ export default function Home() {
          
           <a href='/ColeSpencer' //Enter page here
             className='card'> 
-            <h3>"Cole Specner" &rarr;</h3>
-            <p>"Click here to see Cole's Page"</p>
+            <h3>Cole Spencer &rarr;</h3>
+            <p>Click here to see Cole's Page</p>
           </a>
         </div>
       </main>
@@ -192,3 +192,5 @@ export default function Home() {
     </div>
   );
 }
+
+//website link https://main--csci-group-project.netlify.app/

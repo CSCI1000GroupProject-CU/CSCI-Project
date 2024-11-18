@@ -1,32 +1,39 @@
-export default function examplePage() {
+export default function rileysPage() {
     return (
       <div className='container'>
         <title>Website</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='' />
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hey, I'm Spider man. </h1>
+            <h1 className='title'> Riley Rasizer </h1>
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
+            src='https://github.com/CSCI1000GroupProject-CU/CSCI-Project/blob/main/src/public/rileyimage.jpg?raw=true'
+            alt='rileyrasizer'
           />
 
           <p className='description'>
-            Hey I am your friendly neighbourhood Spider Man. My real name is Tom
-            Holland. I am an actor but mostly I fight villains and juggle high school.
-            I am just your average student – well, maybe not so average. 
-            You see, I've got some incredible powers, like superhuman strength, agility, 
-            and the ability to shoot webs from my wrists. With great power comes great 
-            responsibility, and I'm here to protect New York City from all kinds of baddies,
-            from common crooks to supervillains. So, if you ever need a hand or a web-swinging
-            hero in your corner, just remember, I'm your friendly neighborhood Spider-Man!"
+            Hi there! My name is Riley and I am currently a first year CS student 
+            minoring in business, and I am pursuing a focus in cybersecurity! As of
+            right now, I primarily want to focus on gaining my certifications, such
+            as Comptia Networking+ and Security+, I know that I have a long way to
+            go, however, I know that these will strongly benefit me in the future. 
+            I have attached my LinkedIn and email if you would like to reach out
+            to me with any questions you might have.
           </p>
 
+<a className='button' href='https://www.linkedin.com/in/riley-rasizer-265258325/'>
+            <p> LinkedIn </p>
+          </a>
+
+<a className='button' href='mailto:rileyrasizer@gmail.com'>
+            <p> Email: rileyrasizer@gmail.com </p>
+          </a>
+                
           <a className='button' href='/'>
-            <p> Back to Home Page</p>
+            <p> Back </p>
           </a>
         </main>
 
@@ -68,21 +75,25 @@ export default function examplePage() {
           }
 
           .pic {
-            height: 450px;
-            width: 450px;
+            height: 250px;
+            width: 150px;
           }
 
           .button {
-            /* margin: .5rem; */
-            flex-basis: 45%;
-            padding: 0.5rem;
+            padding: 0.4rem 0.5rem;
             text-align: left;
-            color: inherit;
+            color: #000000;
             text-decoration: none;
-            border: 1px solid #eaeaea;
+            border: 3px solid #000000;
             border-radius: 10px;
             transition: color 0.15s ease, border-color 0.15s ease;
+            box-sizing: border-box;
           }
+
+          .button p {
+              margin: 0;
+              line-height: 1rem;
+            }
 
           .button:hover,
           .button:focus,
@@ -109,6 +120,7 @@ export default function examplePage() {
         <style jsx global>{`
           html,
           body {
+            background-color: #bbc0d8;
             padding: 0;
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
