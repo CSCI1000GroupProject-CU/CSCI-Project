@@ -14,12 +14,7 @@ export default function Home() {
         <p className='description'>
           By Riley, Andrew and Cole
         </p>
-  {/*<p className='description2'>
-          Next, each team member will create their own about me file in the
-          pages directory:{' '}
-        </p>
-        <code>src/page/teamMemberName.js</code>
-*/}
+
         <div className='grid'>
           <a href='/RileyRasizer' className='card'>
             <h3>Riley Rasizer &rarr;</h3>
@@ -35,42 +30,14 @@ export default function Home() {
             </p>
           </a>
          
-  {/*
-              <a
-            href='/Cole' //enter your page here
-            className='card'>
-            <h3> "Enter Name Here" &rarr;</h3>
-            <p>"Enter Description Here"</p>
-          </a>
-          <a href='https://blog.hubspot.com/website/html' className='card'>
-            <h3>HTML and CSS &rarr;</h3>
-            <p>Click here to learn more about HTML and CSS</p>
-          </a>{' '}
-       */} 
           <a href='/ColeSpencer' //Enter page here
             className='card'> 
             <h3>"Cole Specner" &rarr;</h3>
             <p>"Click here to see Cole's Page"</p>
           </a>
-  {/*
-            <a href='https://styled-components.com/' className='card'>
-            <h3>Styled Components&rarr;</h3>
-            <p>Click here to learn more about Styled Components</p>
-          </a>
-          <a href='https://www.netlify.com/' className='card'>
-            <h3>Netlify&rarr;</h3>
-            <p>Click here to learn more about Netlify to host your website</p>
-          </a>
-          */}
         </div>
       </main>
 
-  {/*<footer>
-        <a href='' target='_blank' rel='noopener noreferrer'>
-          Copyright CSCI 1000 2023
-        </a>
-      </footer>
-*/}
       <style jsx>{`
         .container {
           min-height: 100vh;
