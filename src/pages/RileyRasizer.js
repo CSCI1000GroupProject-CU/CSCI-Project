@@ -82,7 +82,7 @@ export default function rileysPage() {
           .button {
             padding: 0.4rem 0.5rem;
             text-align: left;
-            color: #FFFFFF;
+            color: #000000;
             text-decoration: none;
             border: 3px solid #000000;
             border-radius: 10px;
