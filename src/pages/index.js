@@ -22,7 +22,7 @@ export default function Home() {
           </a>
 
           <a
-            href='' //enter your page here
+            href='/Andrew' //enter your page here
             className='card'>
             <h3> Andrew &rarr;</h3>
             <p>
