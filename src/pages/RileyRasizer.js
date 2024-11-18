@@ -28,7 +28,7 @@ export default function rileysPage() {
             <p> LinkedIn </p>
           </a>
 
-<a className='button' href='rileyrasizer@gmail.com'>
+<a className='button' href='mailto:rileyrasizer@gmail.com'>
             <p> Email: rileyrasizer@gmail.com </p>
           </a>
                 
@@ -82,7 +82,7 @@ export default function rileysPage() {
           .button {
             /* margin: .5rem; */
             flex-basis: 45%;
-            padding: 0.5rem;
+            padding: 0.4rem 0.5rem;
             text-align: left;
             color: inherit;
             text-decoration: none;
