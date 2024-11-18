@@ -24,9 +24,9 @@ export default function Home() {
           <a
             href='/Andrew' //enter your page here
             className='card'>
-            <h3> "Enter Name Here" &rarr;</h3>
+            <h3> Andrew &rarr;</h3>
             <p>
-              "Enter Description here"
+              Click here to see Andrew's Page
             </p>
           </a>
          
